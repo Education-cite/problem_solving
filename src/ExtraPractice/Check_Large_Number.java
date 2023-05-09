@@ -23,5 +23,15 @@ public class Check_Large_Number {
 			System.out.println("3rd number " +c + " is largest number");
 
 		}
+		
+		if(a<b && a<c) {
+			System.out.println("first number " +a + " is   small number");
+		}
+		else if(b<a && b<c) {
+			System.out.println("2nd number " +b + " is  small number");
+		}else {
+			System.out.println("3rd number " +c + " is small number");
+
+		}
 	}
 }

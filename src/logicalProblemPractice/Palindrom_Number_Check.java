@@ -1,5 +1,7 @@
 package logicalProblemPractice;
 
+import java.util.Scanner;
+
 public class Palindrom_Number_Check {
 
 	public static void main(String[] args) {
@@ -20,5 +22,23 @@ public class Palindrom_Number_Check {
 			System.out.println(num + "  is not palindrom Number");
 
 		}
+		
+		
+		//OR----------------
+		
+		
+//		 String original, reverse = ""; // Objects of String class  
+//	      Scanner in = new Scanner(System.in);   
+//	      System.out.println("Enter a string/number to check if it is a palindrome");  
+//	      original = in.nextLine();   
+//	    
+//	      for ( int i = original.length() - 1; i >= 0; i-- )  
+//	         reverse = reverse + original.charAt(i);  
+//	      if (original.equals(reverse))  
+//	         System.out.println("this is a palindrome.");  
+//	      else  
+//	         System.out.println("this isn't a palindrome."); 
+		
+		
 	}
 }
